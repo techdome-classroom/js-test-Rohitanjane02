@@ -20,6 +20,7 @@ var isValid = function(s) {
       }
     }
 };
+
 console.log(isValid)
 module.exports = { isValid };
 
