@@ -13,6 +13,7 @@ var isValid = function(s) {
       } else if (ch === ')' || ch === ']' || ch === '}') {
        
         const lastOpen = stack.pop();
+        
   
         if ( (ch === ')' && lastOpen !== '(') || (ch === ']' && lastOpen !== '[') ||  (ch === '}' && lastOpen !== '{')) {
           return false;
